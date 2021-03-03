@@ -1,1 +1,85 @@
 # projects-frequencyofhighestelement
+
+Question:
+
+Write a program to display the frequency of the largest number in an array.
+
+Input Description: 
+
+The first line contains a positive integer denoting the length of the array, 1<=n<=20. The second line contains an array of n positive integers, 1<=arr[i]<=10^4.
+
+Output Description: 
+
+Print the largest number followed by "occurs" followed its frequency and the word "time" or "times"
+
+Hints: 
+
+Find the number of occurrences of the largest element in the given array.
+
+Sample Input:
+
+6
+1 3 2 5 3 5
+
+Sample Output:
+
+5 occurs 2 times
+
+Explanation:
+
+As the largest element in the array is 17, the frequency of 17 is 3.
+
+Testcase 1:
+
+Input:
+
+14
+ 211 221 220 213 212 215 211 212 220 216 215 212 213 214 
+
+Output:
+
+221 occurs 1 time
+Testcase 2:
+
+Input:
+
+20
+12 15 11 12 17 16 15 12 13 14 15 16 17 11 12 15 14 16 17 12
+
+Output:
+
+17 occurs 3 times
+
+Testcase 3:
+
+Input:
+
+18
+6784 5678 6756 6796 5545 6795 6790 6596 6690 6755 6789 6796 6645 6788 6574 6796 6789 6655
+
+Output:
+
+6796 occurs 4 times
+
+Testcase 4:
+
+Input:
+
+8
+17795 17790 17596 17690 17755 17789 17796 17645
+
+Output:
+
+17796 occurs 1 time
+
+
+Testcase 5:
+
+Input:
+
+25
+217 230 223 245 234 213 215 245 212 217 245 235 212 213 245 215 126 227 221 212 215 245 216 217 212
+
+Output:
+
+245 occurs 5 times
